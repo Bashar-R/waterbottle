@@ -1,0 +1,35 @@
+body{
+    background-color: #0077be;
+    font-family:Arial, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.header{
+    text-align:center ;
+    padding: 20px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.water {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 15px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.water img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
